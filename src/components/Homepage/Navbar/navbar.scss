@@ -1,0 +1,41 @@
+
+nav 
+{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+img
+{
+  width: 205px;
+}
+.items ul {
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #292929;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  cursor: pointer;
+}
+.button {
+  width: 154px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  background-color: rgb(237, 26, 26);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+}
+.button:hover
+{
+  transition: 0.2s all ease-in-out;
+  background-color: rgb(166, 15, 15);
+}
+}
